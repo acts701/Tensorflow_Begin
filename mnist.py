@@ -8,6 +8,7 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
+# origin = https://www.tensorflow.org/tutorials/quickstart/beginner?hl=ko
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 try:
