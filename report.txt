@@ -1,0 +1,28 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'XOR.py'
+ outputting to 'XORV22.py'
+--------------------------------------------------------------------------------
+
+8:0: INFO: Renamed 'tf.set_random_seed' to 'tf.compat.v1.set_random_seed'
+13:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+14:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+16:16: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+17:16: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+23:8: INFO: Added keywords to args of function 'tf.reduce_mean'
+23:27: INFO: Renamed 'tf.log' to 'tf.math.log'
+23:58: INFO: Renamed 'tf.log' to 'tf.math.log'
+24:8: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+29:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+32:5: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+34:13: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+

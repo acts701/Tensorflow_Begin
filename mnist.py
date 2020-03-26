@@ -11,16 +11,13 @@ Original file is located at
 # origin = https://www.tensorflow.org/tutorials/quickstart/beginner?hl=ko
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-try:
-#   %tensorflow_version 2.x
-except Exception:
-    pass
 
 import tensorflow as tf
 
 mnist = tf.keras.datasets.mnist
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
+
 x_train, x_test = x_train / 255.0, x_test / 255.0
 
 model = tf.keras.models.Sequential([
